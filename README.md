@@ -18,7 +18,7 @@ gobble('src/js').observe( 'jshint', {
 	// if `true`, errors will not cause the whole build to fail
 	reportOnly: false,
 
-	// custom reporting function reporter
+	// custom reporter
 	reporter: function (results) {
 		// `results` is an array of { file, filePath, errors } objects
 	},
@@ -27,7 +27,7 @@ gobble('src/js').observe( 'jshint', {
 });
 ```
 
-If no jshint options are supplied with the second argument, gobble-jshint will use the nearest `.jshintrc` file instead (this is recommended). See 
+If no jshint options are supplied with the second argument, gobble-jshint will use the nearest `.jshintrc` file instead (recommended). See 
 the [jshint](http://jshint.com/) website for documentation on the options you can specify.
 
 ## License
